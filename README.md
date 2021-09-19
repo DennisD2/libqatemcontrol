@@ -39,6 +39,7 @@ mv /usr/lib/libqatemcontrol* /usr/lib64/````
 ```
 
 # File upload test application
+```
 cd example/qatemuploader
 qmake
 make
