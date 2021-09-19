@@ -20,6 +20,14 @@ make
 make install
 ```
 
+The library is installed to ```/usr/lib```. For OpenSuse Leap,
+the correct local is ```/usr/lib64```.
+As a hack, this can be quickly fixed:
+```shell
+# As root
+mv /usr/lib/libqatemcontrol* /usr/lib64/````
+```
+
 ## Test the installation
 ```shell
 # Simple switcher UI test application
@@ -27,14 +35,6 @@ cd example/qatemswitcher
 qmake
 make
 ./qatemswitcher
-```
-
-The library is installed to ```/usr/lib```. For OpenSuse Leap,
-the correct local is ```/usr/lib64```. 
-As a hack, this can be quickly fixed:
-```shell
-# As root
-mv /usr/lib/libqatemcontrol* /usr/lib64/````
 ```
 
 # File upload test application
