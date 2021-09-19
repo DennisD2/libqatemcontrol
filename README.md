@@ -26,7 +26,6 @@ make install
 cd example/qatemswitcher
 qmake
 make
-make install
 ./qatemswitcher
 ```
 
