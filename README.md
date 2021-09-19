@@ -37,8 +37,8 @@ make
 ./qatemswitcher
 ```
 
-# File upload test application
 ```
+# File upload test application
 cd example/qatemuploader
 qmake
 make
